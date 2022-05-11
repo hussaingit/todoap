@@ -15,42 +15,42 @@ body{
      background-size: 100%;
 }
 #todoItem{
-    width: 100px;
-    height:40px ;
+    width: 150px;
+    height:30px ;
     
 }
 .applyall{
-    background-color:black;
-    color: white;
-    width: 40px;
+    background-color:orchid ;
+    color: black;
+    width: 50px;
 }
 .applyall1{
-    background-color: red;
+    background-color: gainsboro;
     color:black;
-    width: 40px;
+    width: 50px;
 }
 .delBtn{
 background-color: lightseagreen;
-margin-left: 10px;
+margin-left: 15px;
 }
 .editBtn{
     background-color: lightskyblue;
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 ol{
     text-align: center;
     background-color:white;
-    width: 200px;
-    margin-left: 250px;
+    width: 150px;
+    margin-left: 50px;
 }
 </style>
   <h1>Todo app</h1> <br> <br>
   <h4  onclick="window.print()"</h4> My Todo list</h4> <br> <br>
 
     <input id="todoItem" type="text" placeholder="Todo"  >
-    <button onclick="addTodo()" class="applyall" >+</button>
-    <button onclick="deletAll()" class="applyall1" >x</button>
+    <button onclick="addTodo()" class="applyall" >Add</button>
+    <button onclick="deletAll()" class="applyall1" >Del</button>
     <div>
         <ol id="list">
            
